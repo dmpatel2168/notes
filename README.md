@@ -20,44 +20,31 @@ Installation
 Frontend
 Clone the Repository
 
-bash
-Copy code
 git clone https://github.com/dmpatel2168/notes/front-end.git
 Navigate to the Frontend Project Directory
 
-bash
-Copy code
 cd notes-app-frontend
 Install Dependencies
 
-bash
-Copy code
+
 npm install
 Start the Development Server
 
-bash
-Copy code
 npm start
 Backend
 Clone the Backend Repository
 
-bash
-Copy code
+
 git clone https://github.com/dmpatel2168/notes/back-end.git
 Navigate to the Backend Project Directory
 
-bash
-Copy code
+
 cd notes-app-backend
 Install Dependencies
 
-bash
-Copy code
 npm install
 Start the Development Server
 
-bash
-Copy code
 npm run start:dev
 This will start the NestJS server, which listens on port 3000 by default. Adjust the port if needed based on your setup.
 
@@ -90,18 +77,12 @@ Fork the Repository
 
 Create a Feature Branch
 
-bash
-Copy code
 git checkout -b feature/new-feature
 Commit Your Changes
 
-bash
-Copy code
 git commit -am 'Add new feature'
 Push to the Branch
 
-bash
-Copy code
 git push origin feature/new-feature
 Open a Pull Request
 
