@@ -21,7 +21,7 @@ Database: Choose a database for storing notes (e.g., MongoDB, PostgreSQL, MySQL)
 
 => Installation Frontend
 
-1. Clone the Repository:
+1.Clone the Repository:
 git clone https://github.com/dmpatel2168/notes/front-end.git
 
 2.Navigate to the Project Directory:
@@ -32,7 +32,9 @@ npm install
 
 4.Start the Development Server:
 npm start
-Backend
+
+=> Backend
+
 1.Clone the Repository:
 git clone https://github.com/dmpatel2168/notes/back-end.git
 
@@ -90,4 +92,5 @@ git push origin feature/new-feature
 5.Open a Pull Request
 
 => License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
