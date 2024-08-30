@@ -1,4 +1,5 @@
 Notes Application Overview
+
 The Notes Application is a full-stack platform for managing notes, featuring the ability to create, view, and delete notes. It utilizes a React frontend with Material-UI for user interface components and a NestJS backend for handling CRUD operations.
 Key Features
 Create Notes: Add new notes with a title and content.
@@ -40,26 +41,36 @@ npm install
 npm run start:dev
 The NestJS server will start on port 3000 by default. Adjust the port if necessary based on your configuration.
 Usage
+
 Frontend
+
 Creating a Note: Click the "+" button to open the dialog and enter the title and content for the new note.
 Viewing Notes: Notes are displayed in a grid layout.
 Deleting a Note: Click the "Delete" button on a note to remove it.
 Backend
+
 API Endpoints:
+
 GET /: Fetch all notes.
 POST /: Create a new note. Requires a JSON body with title and content.
 DELETE /
 : Delete a note by its ID.
 Error Handling
+
 Frontend
+
 Fetching Notes: Displays an error message if fetching fails.
 Creating Notes: Snackbar notifications are shown for errors during creation.
 Deleting Notes: Notifications are provided if deletion fails.
+
 Backend
+
 Proper HTTP status codes and error messages are returned for failed operations.
 Contributing
 Contributions are welcome! To contribute:
+
 1.Fork the Repository
+
 2.Create a Feature Branch:
 git checkout -b feature/new-feature
 
@@ -68,6 +79,8 @@ git commit -am 'Add new feature'
 
 4.Push to the Branch:
 git push origin feature/new-feature
+
 5.Open a Pull Request
+
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
