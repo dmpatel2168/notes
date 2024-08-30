@@ -1,12 +1,16 @@
 Notes Application Overview
 
-The Notes Application is a full-stack platform for managing notes, featuring the ability to create, view, and delete notes. It utilizes a React frontend with Material-UI for user interface components and a NestJS backend for handling CRUD operations.
-Key Features
+=> The Notes Application is a full-stack platform for managing notes, featuring the ability to create, view, and delete notes. It utilizes a React frontend with Material-UI for user interface components and a NestJS backend for handling CRUD operations.
+
+=> Key Features
+
 Create Notes: Add new notes with a title and content.
 View Notes: Display notes in a grid layout showcasing their titles and content.
 Delete Notes: Remove individual notes as needed.
 Snackbar Notifications: Receive feedback on successful or failed operations.
-Technologies
+
+=> Technologies
+
 Frontend:
 React: A JavaScript library for building user interfaces.
 Material-UI: Provides React components that follow Google's Material Design guidelines.
@@ -14,8 +18,9 @@ Backend:
 NestJS: A progressive Node.js framework for building efficient and scalable server-side applications.
 TypeScript: A superset of JavaScript used for backend development.
 Database: Choose a database for storing notes (e.g., MongoDB, PostgreSQL, MySQL).
-Installation
-Frontend
+
+=> Installation Frontend
+
 1. Clone the Repository:
 git clone https://github.com/dmpatel2168/notes/front-end.git
 
@@ -42,14 +47,14 @@ npm run start:dev
 The NestJS server will start on port 3000 by default. Adjust the port if necessary based on your configuration.
 Usage
 
-Frontend
+=> Frontend
 
 Creating a Note: Click the "+" button to open the dialog and enter the title and content for the new note.
 Viewing Notes: Notes are displayed in a grid layout.
 Deleting a Note: Click the "Delete" button on a note to remove it.
 Backend
 
-API Endpoints:
+=> API Endpoints:
 
 GET /: Fetch all notes.
 POST /: Create a new note. Requires a JSON body with title and content.
@@ -63,10 +68,12 @@ Fetching Notes: Displays an error message if fetching fails.
 Creating Notes: Snackbar notifications are shown for errors during creation.
 Deleting Notes: Notifications are provided if deletion fails.
 
-Backend
+=> Backend
 
 Proper HTTP status codes and error messages are returned for failed operations.
-Contributing
+
+=> Contributing
+
 Contributions are welcome! To contribute:
 
 1.Fork the Repository
@@ -82,5 +89,5 @@ git push origin feature/new-feature
 
 5.Open a Pull Request
 
-License
+=> License
 This project is licensed under the MIT License. See the LICENSE file for details.
